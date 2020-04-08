@@ -4,5 +4,6 @@ node default {
     content => 'This is a readme',
     owner   => 'root',
     group   => 'vagrant',
+    mode    => '0664',
   }
 }
