@@ -4,7 +4,7 @@ node 'master.puppet.vm' {
   include role::master_server
   file {'/root/README':
     ensure => file,
-    content => "Welcome to ${fqdn}\nIt\'s all good.",
+    content => "Welcome to ${fqdn}\nIt\'s all good.\n",
     owner   => 'root',
     group   => 'vagrant',
     mode    => '0644',
